@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+}
+.logo{
+    background-color: rgb(5, 5, 19);
+    /* border-radius: 0px; */
+    margin: 0%;
+    display: flex; /* Enable Flexbox */
+    align-items: center; /* Vertically align items in the center */
+    justify-content: left; /* Space items evenly (optional, adjust as needed) */
+    gap: 170px; /* Add spacing between items */
+padding: 10px; /* Optional padding around the container */  
+}
+  .logo div a img {
+    height: 50px; /* Adjust logo size */
+    object-fit: contain; /* Ensure logo maintains aspect ratio */
+  }
+
+  .logo h3 {
+    margin: 0; /* Remove default margin for better alignment */
+    color: aliceblue; /* Text color */
+    font-family: Arial, sans-serif; /* Adjust font style */
+  }
+
+  .logo input[type="text"] {
+    padding: 5px 10px; /* Add padding inside the input box */
+    font-size: 20 px; /* Adjust font size */
+  }
+.logo img{
+    background-color: rgb(5, 5, 19);
+    padding: 0%;
+    margin: 10px 0 10px 10px;
+    height:70px;
+    align-items: center;
+}
+    #image-container >img{
+    
+    /* border-radius: 25px; */
+    height:500px;
+    width:100%;
+}
+/* #image-container {
+    position: relative;
+    display: inline-block;
+  } */
+  #image-container #overlay {
+    position: absolute;
+    width:5%;
+    height: 20%;
+    top: 70%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    size: 40px;
+    /* font-size: 50px; */
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 0px;
+    /* border-radius: 1px; */
+    text-align: center;
+  } 
+  #Navbar{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px; /* Gap between the grid items */
+    width: 100%; /* Ensure the grid container takes full width */
+    margin: 0; /* Remove default margin (optional) */
+    padding: 0; /* Remove default padding (optional) */
+  }
+  #Navbar>div>img{
+    width: 100%; /* Make each image take the full width of its grid cell */
+    height: 400px; /* Maintain the aspect ratio */
+    display: block; /* Avoid unwanted inline space below images */
+    border-radius: 5px; 
+  }
+  #Navbar>div>p{
+    font-size: 20px;
+    font-style: oblique;
+    margin:5px 5px;
+    text-align: center; 
+  }
+  .sort{
+    margin:10px 0px;
+  }
+  #inputval{
+    width:250px;
+    margin: 1px;
+    height: 20px;
+    display: flex;
+   position:absolute;
+   transform: translate(400%, -280%);
+  }
